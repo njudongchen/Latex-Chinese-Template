@@ -1,0 +1,125 @@
+\documentclass[]{viccuad-cv}
+\usepackage[english]{babel}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\hypersetup{
+    pdftitle={John Doe resumé}, 
+    pdfauthor={John Doe}, 
+    pdfcreator={John Doe}, 
+    pdfsubject={Resumé}, 
+    pdfkeywords={PDF,LaTeX,John,Johny,resume,cv}
+}
+
+\begin{document}
+
+
+%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\header{你的大名}{目标职位:}{软件研发工程师}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%% FOOTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footer{this is a footnote}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%% ASIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\aside{
+    \rule{2.6cm}{3.2cm}%foto
+    \subsection{信息}
+        姓名 \\
+        \url{xxx@xxx.com}  \\
+        \url{www.xxxx.com} \\
+        (555) 555-3333
+    \subsection{核心优势}
+我无敌无敌无敌无敌是多么的寂寞
+    \subsection{其他你想补充的信息}
+无敌是多么的寂寞寂寞
+  }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+%%%% MAIN1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{教育背景}
+    \begin{entrylistdated}
+      \entrydated
+        {2010 - now}
+        {xxx野鸡大学}
+        {本科生}
+        {无敌是多么的寂寞}
+      \entrydated
+        {2007 - 2010}
+        {xxx野鸡大学}
+        {研究生}
+        {无敌是多么的寂寞}
+	%根据需要可以继续加entrydate
+    \end{entrylistdated}
+
+
+
+\section{三横隔样式}
+    \begin{tabularx}{\linewidth}{XXr}
+        \textbf{加粗} 不加粗& \textbf{加粗} 不加粗 & \textbf{加粗} 不加粗 \tabularnewline
+    \end{tabularx}
+ 
+
+\section{项目经历}
+    \begin{entrylistdated}
+      \entrydated
+        {2010 - now}
+        {项目名3称}
+        {担任角色}
+        {具体内容}
+      \entrydated
+        {2007 - 2010}
+        {项目名3称}
+        {担任角色}
+        {具体内容}
+    \end{entrylistdated}
+\section{其他擅长的点}
+    \begin{entrylist}
+      \entry
+        {某个内容}
+        {\href{https://baidu.com}{网站}}
+	{其他一些说明的点}
+	%根据需要可以添加需要的entry
+    \end{entrylist}
+
+\framebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%% MAIN2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{技能总结}
+\providecommand{\tabularnewline}{\\}
+\setlength{\tabcolsep}{5pt}
+    \begin{tabularx}{\linewidth}{X r | X r | X r | X r}
+      讲笑话       &  五星 & 讲笑话       &  八星& 长得帅     & 九星 &  有钱  &  八星\tabularnewline
+      讲笑话       &  五星 & 讲笑话       &  八星& 长得帅     & 九星 &  有钱  &  八星
+      %根据适当的需求增加tabularnewline
+    \end{tabularx}
+
+%\framebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%% REST OF PAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{教育背景}
+    \begin{entrylistdated}
+      \entrydated
+        {2010 - now}
+        {xxx野鸡大学}
+        {本科生}
+        {无敌是多么的寂寞}
+      \entrydated
+        {2007 - 2010}
+        {xxx野鸡大学}
+        {研究生}
+        {无敌是多么的寂寞}
+	%根据需要可以继续加entrydate
+    \end{entrylistdated}
+
+
+
+
+\end{document}
